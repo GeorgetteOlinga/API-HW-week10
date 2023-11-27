@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(255, 221, 227);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+header h1 {
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  background-color: navy;
+}
+
+nav a {
+  color: white;
+  font-weight: 900;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#root {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(255, 194, 194);
+  padding: 2rem;
+}
